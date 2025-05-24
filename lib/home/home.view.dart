@@ -12,10 +12,10 @@ class HomeView extends StatelessWidget {
         leading: const Icon(Icons.person),
         actions: [
           IconButton(
-            onPressed: () {
+            onPressed: () {               
               Get.back();
             },
-            icon: const Icon(Icons.home),
+            icon: const Icon(Icons.home),    /* aqui é o botão de quando o usuário clica volta pro menu */
           ),
         ],
       ),

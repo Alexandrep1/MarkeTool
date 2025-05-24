@@ -9,7 +9,7 @@ class EmailField extends GetView<LoginController> {
   Widget build(BuildContext context) {
       return TextField(
       controller: controller.emailInput,
-      decoration: InputDecoration(labelText: "Email"),
+      decoration: InputDecoration(labelText: "Email"),    /* verificação de email */
       obscureText: true,
     );
   }

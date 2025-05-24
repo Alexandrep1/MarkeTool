@@ -9,7 +9,7 @@ class PasswordField extends GetView<LoginController> {
   Widget build(BuildContext context) {
     return TextField(
       controller: controller.passwordInput,
-      decoration: InputDecoration(labelText: "Password"),
+      decoration: InputDecoration(labelText: "Password"),     /* verificação da senha */
       obscureText: true,
     );
   }

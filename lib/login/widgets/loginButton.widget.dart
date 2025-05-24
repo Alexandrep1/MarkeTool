@@ -10,7 +10,7 @@ class LoginButton extends GetView<LoginController> {
     return ElevatedButton(
       onPressed: () {controller.tryTologin();},
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.blue[900],
+        backgroundColor: Colors.blue[900],               /* design do botão */
       ),
       child: Text("Entrar",
       style: TextStyle(color: Colors.white),

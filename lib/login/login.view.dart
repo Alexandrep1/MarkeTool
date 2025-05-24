@@ -31,7 +31,6 @@ class LoginView extends GetView<LoginController> {
       padding: const EdgeInsets.all(24),
       children: [
         const SizedBox(height: 40),
-        // Imagem da empresa (substitua a URL se quiser)
         Center(
           child: ClipRRect(
             borderRadius: BorderRadius.circular(16),
@@ -44,10 +43,9 @@ class LoginView extends GetView<LoginController> {
           ),
         ),
         const SizedBox(height: 24),
-        // Nome da empresa
         Center(
           child: Text(
-            "MarkeTool",
+            "MarkeTool",                                               /* aqui ta a parte de design do app */
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.bold,
@@ -57,7 +55,6 @@ class LoginView extends GetView<LoginController> {
           ),
         ),
         const SizedBox(height: 8),
-        // Subtítulo
         Center(
           child: Text(
             "Empresa de Investimentos",
